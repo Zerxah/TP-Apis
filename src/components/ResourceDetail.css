@@ -1,0 +1,40 @@
+.resourcedetailContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 125px;
+  }
+  
+  .resourcedetail {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 12px;
+    border-radius: 7px;
+    width: 60%;
+    background: rgb(153, 208, 215);
+    background: radial-gradient(circle, rgba(153, 208, 215, 1) 7%, #0c79b0 100%);
+    font-family: "Caveat Brush", cursive;
+    color: rgb(255, 254, 254);
+    text-shadow: -3px 1px 5px rgba(7, 7, 7, 1.792);
+  }
+  
+  .resourcedetail h2,
+  .resourcedetail h3 {
+    text-transform: uppercase;
+  }
+  
+  .resourcedetail h2 {
+    font-size: 30px;
+  }
+  
+  .resourcedetail h3,
+  .resourcedetail p {
+    font-size: 18px;
+  }
+  

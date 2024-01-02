@@ -1,0 +1,64 @@
+.resourceCardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .resourceCard {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 8.5px;
+    width: 100%;
+    background: rgb(51, 114, 139);
+    background: radial-gradient(circle, rgb(58, 85, 206) 8%, #0c79b0 100%);
+    width: 25%;
+    font-family: "Georgia", serif;
+  }
+  
+  
+  .imgContainer img {
+    width: 200px;
+    height: 200px;
+    margin: 11px 0px;
+    object-fit: contain;
+  }
+  
+  .resourceCard h2 {
+    font-size: 20px;
+    margin-top: 7px;
+    color: white;
+    text-transform: uppercase;
+  }  
+  
+  .myButton {
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #5d6472;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.5) 2.4px 2.4px 3.2px;
+  }
+  .myButton:hover {
+    background: linear-gradient(to bottom, #dedee4 5%, #ffffff 100%);
+    background-color: #d3d3d3;
+  }
+  
+  
+  
